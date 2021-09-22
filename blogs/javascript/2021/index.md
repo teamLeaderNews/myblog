@@ -193,7 +193,7 @@ categories:
 
     Date对象
         let date = new Date()
-    ​	 date .getFullYear()	// 获取年	
+    ​	 date .getFullYear()	 // 获取年	
     ​	 date.getMonth()		// 获取月(0-11)
     ​	 date.getDate()			// 获取当天日期
     ​	 date.getDay()			// 获取星期几 （周0-周六）
