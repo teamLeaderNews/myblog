@@ -206,6 +206,42 @@ categories:
         +new Date() 
         Date.noe()
 
+# 第二阶段 WebApis
+    webapis是w3c 组织的标准
+    web apis 主要分为 DOM和BOM
+
+    api 应用程式编程接口    给程序员提供一种工具，
+    webapi 浏览器提供的一套 浏览器功能和页面元素的API(BOM & DOM)
+
+## DOM
+    什么是DOM   documentObjectModel 简称DOM,文档对象模型 处理可标记语言的标准编程接口
+    文档：一个页面就是一个文档，DOM中使用 document 表示
+    元素：页面中的所有标签都是元素，Dom 中使用 element 表示
+    节点：网页中所有内容都是节点(标签，属性，文本，注释)，DOM中使用 node 表示
+
+    id选择器：document.getElementById('id') 返回的是 元素对象
+    标签选择器：document.getElementByTagName('标签名') 返回的是，元素集合，伪数组存粹的
+    class选择器：document.getElementByClassName('类名') 返回的是 元素集合，伪数组存粹的
+    全部选择器：document.querySelector('.类名')  返回 指定选择器的第一个对象
+        document.querySelectorAll('.类型')    返回指定选择器的所有元素
+    
+    body选择器：document.body
+    html选择器：document.documentElement
+
+    element.innerText = 'text' //改变元素内容 不识别html标签   获取内容去除 空格和换行
+    element.innerHtml = 'html' //改变元素内容 识别html标签 w3c 推荐  获取内容，保留空格和换行
+
+    
+
+
+## 事件基础
+    触发响应的一种机制，
+    btn.onclick = function (){}：点击事件
+
+
+
+
+
 
 
 
