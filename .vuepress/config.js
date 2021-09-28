@@ -37,6 +37,10 @@ module.exports = {
           {
             "text": "springCloud",
             "link": "/java/springcloud/"
+          },
+          {
+            "text": "leadnews",
+            "link": "/java/leadnews/"
           }
         ]
       },
@@ -73,6 +77,11 @@ module.exports = {
         "",
         "bbb",
         "ccc"
+      ],
+      "/java/leadnews/": [
+        "",
+        "project",
+        "database",
       ],
     },
     "type": "blog",
