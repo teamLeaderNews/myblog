@@ -206,6 +206,17 @@ categories:
         +new Date() 
         Date.noe()
 
+
+
+## 简单数据类型，复杂数据类型
+    栈
+        简单数据类型：Number  Boolean  String Undefined  Null
+        存放的是值
+    堆
+        复杂数据类型：Object
+        在栈里面存放地址，十六进制，在指向堆里面的数据
+
+
 # 第二阶段 WebApis
     webapis是w3c 组织的标准
     web apis 主要分为 DOM和BOM
@@ -237,7 +248,6 @@ categories:
 ## 事件基础
     触发响应的一种机制，
     btn.onclick = function (){}：点击事件
-
 
 
 
